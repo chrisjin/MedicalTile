@@ -21,8 +21,8 @@ How to compile?
 * Download DCMTK3.6 from [DCMTK](http://dicom.offis.de/dcmtk.php.en)
 
 ####Second, add 3rd pary libraries and compile. 
-I use Visual studio 2010 to compile this project, have never tried any other version of Visual Studio.<br>
-Install Qt add-in for visual studio. You can find it in the downloaded Qt package.<br>
-Add headers and libraries to visual studio.<br>
-Then, open the sln file in your visual studio and click build!<br>
+* Visual studio 2010 is suggested.<br>
+* Install Qt add-in for visual studio. You can find it in the downloaded Qt package.<br>
+* Add headers and libraries to visual studio.<br>
+* Then, open the sln file in your visual studio and click build!<br>
 
