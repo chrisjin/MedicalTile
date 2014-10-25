@@ -18,5 +18,6 @@ How to compile?
 ####First, download the 3rd party libraries.
 * Download ITK 4.1.0 from [ITK](http://www.itk.org/ITK/resources/legacy_releases.html)
 * Download Qt >= 4.8.1 (I use 4.8.1 for this project, and Qt 4.8.5 also works well) from [Qt](http://download.qt-project.org/archive/qt/4.8/)
+
 ####Second
 
