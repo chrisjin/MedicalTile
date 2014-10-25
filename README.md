@@ -1,9 +1,11 @@
 MedicalTile
 ===========
-#SSS
-`````
-x = 0
-x = 2 + 2
-what is x
-`````
-![](http://www.baidu.com/img/bdlogo.gif)
+Description
+----------------
+MedicalTile is an open source software for 2D and 3D medical image visualization and processing.
+
+Feature
+---------------
+* Import CT or MR series
+* Display 3D image as slices
+
