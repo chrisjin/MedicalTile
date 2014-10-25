@@ -16,6 +16,6 @@ Feature
 How to compile?
 ---------------
 ####First, download the 3rd party libraries.
-`[ITK](http://www.itk.org/ITK/resources/legacy_releases.html)`
+[ITK](http://www.itk.org/ITK/resources/legacy_releases.html)
 ####Second
 
