@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="ICON">
+		 <file alias="GFR">gfr.png</file>
+		 <file alias="TimePoint">clock.png</file>
+    </qresource>
+</RCC>

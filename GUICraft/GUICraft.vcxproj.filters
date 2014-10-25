@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{41183362-f2ae-4826-a10a-bdbb8a5b52ab}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{180ced0d-21e6-4607-869e-df2232c956ba}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Ling">
+      <UniqueIdentifier>{1f7a5b64-e1c9-4d70-ba53-1bfee30a0492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Canvas">
+      <UniqueIdentifier>{28beeaae-fcb4-4349-abc6-3296e267ea0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drag">
+      <UniqueIdentifier>{774fd250-4acf-4044-9a45-6daad89f22e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obsolete">
+      <UniqueIdentifier>{5b993273-fa84-4e06-a794-f659d1958e58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpp\amyFolderView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyPatientModel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyPatientTable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyQUtil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyCubeLing.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyCubeLing.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyDICOMCanvas.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyDICOMCanvas.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyFolderView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyFolderView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyPatientModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyPatientModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyPatientTable.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyPatientTable.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyVariableArea.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyVariableArea.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyCubeLing.cpp">
+      <Filter>Ling</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyMaskLing.cpp">
+      <Filter>Ling</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyVariableLing.cpp">
+      <Filter>Ling</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyAnnotationLing.cpp">
+      <Filter>Ling</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyROILing.cpp">
+      <Filter>Ling</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyLing.cpp">
+      <Filter>Ling</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyDragableLing.cpp">
+      <Filter>Ling</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyMeasureLing.cpp">
+      <Filter>Ling</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyGroupLing.cpp">
+      <Filter>Ling</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyCanvas.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyDICOMCanvas.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyVariableArea.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyZoomLing.cpp">
+      <Filter>Ling</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyImageLing.cpp">
+      <Filter>Ling</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyZoomLing.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyZoomLing.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyMeasureLing.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyMeasureLing.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyscanf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyscanf.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyscanf.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyShuttle.cpp">
+      <Filter>Drag</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyReaver.cpp">
+      <Filter>Drag</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amySplashScreen.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amySplashScreen.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amySplashScreen.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUIDllMain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyFormatEdit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyDoubleThresholdWidget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyDoubleThresholdWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyDoubleThresholdWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyProgressBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyChartLing.cpp">
+      <Filter>obsolete</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyVariableView.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyVariableView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyVariableView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyVariableItem.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyVariableItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyVariableItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyGrid2DViewer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyGrid2DViewer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyGrid2DViewer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyAnnotationLing.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyAnnotationLing.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amySelectionLing.cpp">
+      <Filter>Ling</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amySelectionLing.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amySelectionLing.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyMPRViewer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyMPRViewer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyMPRViewer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyDropCanvas.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyAdvDICOMCanvas.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyAdvDICOMCanvas.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyAdvDICOMCanvas.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyDropCanvas.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyDropCanvas.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyMPRLineCubeLing.cpp">
+      <Filter>Ling</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyMPRLineCubeLing.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyMPRLineCubeLing.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amy3DViewer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="headers\amyFolderView.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyPatientModel.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyPatientTable.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyCubeLing.h">
+      <Filter>Ling</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyDICOMCanvas.h">
+      <Filter>Canvas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyVariableArea.h">
+      <Filter>Canvas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyMeasureLing.h">
+      <Filter>Ling</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyZoomLing.h">
+      <Filter>Ling</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyscanf.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amySplashScreen.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyDoubleThresholdWidget.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyVariableView.h">
+      <Filter>Canvas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyVariableItem.h">
+      <Filter>Canvas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyGrid2DViewer.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyAnnotationLing.h">
+      <Filter>Ling</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amySelectionLing.h">
+      <Filter>Ling</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyMPRViewer.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyAdvDICOMCanvas.h">
+      <Filter>Canvas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyDropCanvas.h">
+      <Filter>Canvas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyMPRLineCubeLing.h">
+      <Filter>Ling</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\amyQUtil.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyMaskLing.h">
+      <Filter>Ling</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyVariableLing.h">
+      <Filter>Ling</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyROILing.h">
+      <Filter>Ling</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyLing.h">
+      <Filter>Ling</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyDragableLing.h">
+      <Filter>Ling</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyGroupLing.h">
+      <Filter>Ling</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyCanvas.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyImageLing.h">
+      <Filter>Ling</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyShuttle.h">
+      <Filter>Drag</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyReaver.h">
+      <Filter>Drag</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\GuiMacro.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\GUIDllMain.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyFormatEdit.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyProgressBar.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyChartLing.h">
+      <Filter>obsolete</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amy3DViewer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+  </ItemGroup>
+</Project>

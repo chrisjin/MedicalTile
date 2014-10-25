@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpp\amy3DViewer.cpp" />
+    <ClCompile Include="cpp\amyAdvDICOMCanvas.cpp" />
+    <ClCompile Include="cpp\amyAnnotationLing.cpp" />
+    <ClCompile Include="cpp\amyCanvas.cpp" />
+    <ClCompile Include="cpp\amyChartLing.cpp" />
+    <ClCompile Include="cpp\amyDoubleThresholdWidget.cpp" />
+    <ClCompile Include="cpp\amyDropCanvas.cpp" />
+    <ClCompile Include="cpp\amyFormatEdit.cpp" />
+    <ClCompile Include="cpp\amyGrid2DViewer.cpp" />
+    <ClCompile Include="cpp\amyMPRLineCubeLing.cpp" />
+    <ClCompile Include="cpp\amyMPRViewer.cpp" />
+    <ClCompile Include="cpp\amyProgressBar.cpp" />
+    <ClCompile Include="cpp\amyReaver.cpp" />
+    <ClCompile Include="cpp\amyShuttle.cpp" />
+    <ClCompile Include="cpp\amyCubeLing.cpp" />
+    <ClCompile Include="cpp\amyDICOMCanvas.cpp" />
+    <ClCompile Include="cpp\amyDragableLing.cpp" />
+    <ClCompile Include="cpp\amyFolderView.cpp" />
+    <ClCompile Include="cpp\amyGroupLing.cpp" />
+    <ClCompile Include="cpp\amyImageLing.cpp" />
+    <ClCompile Include="cpp\amyLing.cpp" />
+    <ClCompile Include="cpp\amyMaskLing.cpp" />
+    <ClCompile Include="cpp\amyMeasureLing.cpp" />
+    <ClCompile Include="cpp\amyPatientModel.cpp" />
+    <ClCompile Include="cpp\amyPatientTable.cpp" />
+    <ClCompile Include="cpp\amyQUtil.cpp" />
+    <ClCompile Include="cpp\amyROILing.cpp" />
+    <ClCompile Include="cpp\amyscanf.cpp" />
+    <ClCompile Include="cpp\amySplashScreen.cpp" />
+    <ClCompile Include="cpp\amyVariableArea.cpp" />
+    <ClCompile Include="cpp\amyVariableItem.cpp" />
+    <ClCompile Include="cpp\amyVariableLing.cpp" />
+    <ClCompile Include="cpp\amyVariableView.cpp" />
+    <ClCompile Include="cpp\amyZoomLing.cpp" />
+    <ClCompile Include="cpp\GUIDllMain.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyAdvDICOMCanvas.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyAnnotationLing.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyCubeLing.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyDICOMCanvas.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyDoubleThresholdWidget.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyDropCanvas.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyFolderView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyGrid2DViewer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyMeasureLing.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyMPRLineCubeLing.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyMPRViewer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyPatientModel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyPatientTable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyscanf.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amySelectionLing.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amySplashScreen.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyVariableArea.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyVariableItem.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyVariableView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyZoomLing.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyAdvDICOMCanvas.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyAnnotationLing.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyCubeLing.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyDICOMCanvas.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyDoubleThresholdWidget.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyDropCanvas.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyFolderView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyGrid2DViewer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyMeasureLing.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyMPRLineCubeLing.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyMPRViewer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyPatientModel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyPatientTable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyscanf.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amySelectionLing.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amySplashScreen.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyVariableArea.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyVariableItem.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyVariableView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyZoomLing.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="headers\amyDoubleThresholdWidget.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyDoubleThresholdWidget.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyDoubleThresholdWidget.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <ClCompile Include="cpp\amySelectionLing.cpp" />
+    <CustomBuild Include="headers\amyAdvDICOMCanvas.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyAdvDICOMCanvas.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyAdvDICOMCanvas.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyDropCanvas.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyDropCanvas.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyDropCanvas.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <ClInclude Include="headers\amy3DViewer.h" />
+    <ClInclude Include="headers\amyFormatEdit.h" />
+    <CustomBuild Include="headers\amyGrid2DViewer.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyGrid2DViewer.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyGrid2DViewer.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyMPRViewer.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyMPRViewer.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyMPRViewer.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyMPRLineCubeLing.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyMPRLineCubeLing.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyMPRLineCubeLing.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <ClInclude Include="headers\amyProgressBar.h" />
+    <CustomBuild Include="headers\amyVariableView.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyVariableView.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyVariableView.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyVariableItem.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyVariableItem.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyVariableItem.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <CustomBuild Include="headers\amySelectionLing.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amySelectionLing.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amySelectionLing.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <ClInclude Include="headers\GUIDllMain.h" />
+    <ClInclude Include="headers\GuiMacro.h" />
+    <CustomBuild Include="headers\amySplashScreen.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amySplashScreen.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amySplashScreen.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyAnnotationLing.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyAnnotationLing.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyAnnotationLing.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <ClInclude Include="headers\amyCanvas.h" />
+    <ClInclude Include="headers\amyChartLing.h" />
+    <ClInclude Include="headers\amyReaver.h" />
+    <ClInclude Include="headers\amyShuttle.h" />
+    <ClInclude Include="headers\amyDragableLing.h" />
+    <ClInclude Include="headers\amyImageLing.h" />
+    <CustomBuild Include="headers\amyZoomLing.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyZoomLing.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyZoomLing.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <ClInclude Include="headers\amyGroupLing.h" />
+    <ClInclude Include="headers\amyLing.h" />
+    <ClInclude Include="headers\amyMaskLing.h" />
+    <CustomBuild Include="headers\amyMeasureLing.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyMeasureLing.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyMeasureLing.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <ClInclude Include="headers\amyQUtil.h" />
+    <ClInclude Include="headers\amyROILing.h" />
+    <CustomBuild Include="headers\amyscanf.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyscanf.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyscanf.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <ClInclude Include="headers\amyVariableLing.h" />
+    <CustomBuild Include="headers\amyVariableArea.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyVariableArea.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyVariableArea.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyPatientTable.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyPatientTable.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyPatientTable.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyPatientModel.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyPatientModel.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyPatientModel.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyFolderView.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyFolderView.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyFolderView.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyDICOMCanvas.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyDICOMCanvas.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyDICOMCanvas.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyCubeLing.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyCubeLing.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDLL -DIMPORT_DICOMCRAFT -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include" "-IE:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyCubeLing.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\." -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_DICOMCRAFT  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FF5EDF56-91AE-4B35-91FD-1C21683B1ABA}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\ProjectProperty\Other.props" />
+    <Import Project="..\ProjectProperty\DicomCraft.props" />
+    <Import Project="..\ProjectProperty\BasicCraft.props" />
+    <Import Project="..\ProjectProperty\VarCraft.props" />
+    <Import Project="..\ProjectProperty\AlgoCraft.props" />
+    <Import Project="..\ProjectProperty\EditorCraft.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\ProjectProperty\Other.props" />
+    <Import Project="..\ProjectProperty\DicomCraft.props" />
+    <Import Project="..\ProjectProperty\BasicCraft.props" />
+    <Import Project="..\ProjectProperty\VarCraft.props" />
+    <Import Project="..\ProjectProperty\AlgoCraft.props" />
+    <Import Project="..\ProjectProperty\EditorCraft.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)App\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(ProjectName)\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)trash\$(ProjectName)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)trash\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_WINDLL;IMPORT_DICOMCRAFT;UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_XML_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(SolutionDir)Other\dcmtk\include;$(SolutionDir)Other\itk_dll\include\ITK-4.1;$(SolutionDir)DicomCraft\headers;$(SolutionDir)GUICraft\headers;$(QTDIR)\include\QtXml;E:\QTWP\QtDicom_Recon\SingleCrap\headers;E:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Include;E:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;E:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkCommon\Lib;E:\QTWP\QtDicom_Recon\Other\Mitk_Library\mitkVisualization\Lib;E:\QTWP\QtDicom_Recon\Other\Mitk_Library\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>QtCore4.lib;QtGui4.lib;QtXml4.lib;libfftw3f-3.lib;cg.lib;cgGL.lib;glew32.lib;glut32.lib;mitkCommon.lib;mitkReconstruction.lib;mitkRegistration.lib;mitkSegmentation.lib;mitkVisualization.lib;mitkReconstructionCG.lib;mitkReconstructionCUDA.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>$(SolutionDir)$(ProjectName)\lib\$(ProjectName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_XML_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(SolutionDir)Other\dcmtk\include;$(SolutionDir)Other\itk_dll\include\ITK-4.1;$(SolutionDir)DicomCraft\headers;$(SolutionDir)GUICraft\headers;$(QTDIR)\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).lib</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>qtmain.lib;QtCore4.lib;QtGui4.lib;QtXml4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties UicDir=".\GeneratedFiles" MocDir=".\GeneratedFiles\$(ConfigurationName)" MocOptions="" RccDir=".\GeneratedFiles" lupdateOnBuild="0" lupdateOptions="" lreleaseOptions="" QtVersion_x0020_Win32="Qt4.8.1" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

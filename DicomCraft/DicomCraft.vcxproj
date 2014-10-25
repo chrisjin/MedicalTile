@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3A24AB4D-FFFA-4947-AFD8-7F41AB1D89C2}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <RootNamespace>DicomCraft</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\ProjectProperty\Other.props" />
+    <Import Project="..\ProjectProperty\BasicCraft.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="ITK_dlldebug.props" />
+    <Import Project="..\ProjectProperty\Other.props" />
+    <Import Project="..\ProjectProperty\BasicCraft.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)App\</OutDir>
+    <IntDir>$(SolutionDir)trash\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(ProjectName)\lib\</OutDir>
+    <IntDir>$(SolutionDir)trash\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;EXPORT_DICOMCRAFT_TEMPLATE;QT_CORE_LIB;QT_GUI_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Other\dcmtk\include;$(SolutionDir)Other\itk_dll\include\ITK-4.1;$(SolutionDir)DicomCraft\headers;E:\QTWP\QtDicom_Recon\SingleCrap\headers;$(QTDIR)\include\QtCore;$(QTDIR)\include;$(QTDIR)\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>$(SolutionDir)$(ProjectName)\lib\$(ProjectName).lib</ImportLibrary>
+      <AdditionalDependencies>netapi32.lib;Ws2_32.lib;QtCore4.lib;QtGui4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;QT_CORE_LIB;QT_GUI_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Other\dcmtk\include;$(SolutionDir)Other\itk_dll\include\ITK-4.1;$(SolutionDir)DicomCraft\headers;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cpp\amyAlgorithmProgress.cpp" />
+    <ClCompile Include="cpp\amyArray.cpp" />
+    <ClCompile Include="cpp\amyCube.cpp" />
+    <ClCompile Include="cpp\amyData.cpp" />
+    <ClCompile Include="cpp\amyDICOM.cpp" />
+    <ClCompile Include="cpp\amyDICOMFolder.cpp" />
+    <ClCompile Include="cpp\amyDragData.cpp" />
+    <ClCompile Include="cpp\amyGeo.cpp" />
+    <ClCompile Include="cpp\amyMatrix.cpp" />
+    <ClCompile Include="cpp\amyNumber.cpp" />
+    <ClCompile Include="cpp\amyProgress.cpp" />
+    <ClCompile Include="cpp\amySeriesManager.cpp" />
+    <ClCompile Include="cpp\amySeriesSet.cpp" />
+    <ClCompile Include="cpp\amyTypeWrap.cpp" />
+    <ClCompile Include="cpp\amyUtil.cpp" />
+    <ClCompile Include="cpp\DicomDllMain.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyAlgorithmProgress.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyAlgorithmProgress.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="headers\amySeriesSet.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="headers\amyAlgorithmProgress.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyAlgorithmProgress.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DWIN32 -D_DEBUG -D_CONSOLE -DEXPORT_DICOMCRAFT_TEMPLATE -DQT_CORE_LIB -DQT_GUI_LIB -DIMPORT_BASICCRAFT -D_WINDLL -D_UNICODE -DUNICODE "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-IE:\QTWP\QtDicom_Recon\SingleCrap\headers" "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyAlgorithmProgress.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DWIN32 -DNDEBUG -D_CONSOLE -DQT_CORE_LIB -DQT_GUI_LIB -DIMPORT_BASICCRAFT -D_UNICODE -DUNICODE "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)BasicCraft\headers" "-IE:\QTWP\QtDicom_Recon\Other\itk_dll\include\ITK-4.1"</Command>
+    </CustomBuild>
+    <ClInclude Include="headers\amyArray.h" />
+    <ClInclude Include="headers\amyCube.h" />
+    <ClInclude Include="headers\amyData.h" />
+    <ClInclude Include="headers\amyDICOM.h" />
+    <ClInclude Include="headers\amyDICOMFolder.h" />
+    <ClInclude Include="headers\amyDragData.h" />
+    <ClInclude Include="headers\amyGeo.h" />
+    <ClInclude Include="headers\amyHeader.h" />
+    <ClInclude Include="headers\amyMatrix.h" />
+    <ClInclude Include="headers\amyNumber.h" />
+    <ClInclude Include="headers\amyProgress.h" />
+    <ClInclude Include="headers\amySeriesManager.h" />
+    <ClInclude Include="headers\amyTypeWrap.h" />
+    <ClInclude Include="headers\amyUtil.h" />
+    <ClInclude Include="headers\DicomMacro.h" />
+    <ClInclude Include="headers\DicomDllMain.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties QtVersion_x0020_Win32="Qt4.8.1" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

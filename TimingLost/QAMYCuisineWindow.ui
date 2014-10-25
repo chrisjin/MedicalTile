@@ -1,0 +1,27 @@
+<UI version="4.0" >
+ <class>QAMYCuisineWindow</class>
+ <widget class="QMainWindow" name="QAMYCuisineWindow" >
+  <property name="objectName" >
+   <string notr="true">QAMYCuisineWindow</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>400</width>
+	<height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>QAMYCuisineWindow</string>
+  </property>
+  <widget class="QMenuBar" name="menuBar" />
+  <widget class="QToolBar" name="mainToolBar" />
+  <widget class="QWidget" name="centralWidget" />
+  <widget class="QStatusBar" name="statusBar" />  
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections/>
+</UI>

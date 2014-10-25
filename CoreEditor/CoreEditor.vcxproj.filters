@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{df801a17-bdfa-408e-86b9-560ab316248d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{99dbd948-c6a9-4afe-bf6d-57b4bc354e17}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="obsolete">
+      <UniqueIdentifier>{97cd47d0-e163-4b1e-923d-810bad729da9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\amyCubeEditor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyMatrixEditor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\CoreEditorMacro.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="headers\amyMaskEditor.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyEditorManager.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyDataEditor.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyDataWidget.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyWidgetTable.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyColorButton.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amySeriesSetEditor.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyPointArrEditor.h">
+      <Filter>obsolete</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyFloatArrEditor.h">
+      <Filter>obsolete</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyMaskEditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyMaskEditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyCubeEditor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyMaskEditor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyMatrixEditor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyEditorManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyEditorManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyEditorManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyDataEditor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyDataEditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyDataEditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyDataWidget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyDataWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyDataWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyWidgetTable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyWidgetTable.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyWidgetTable.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyColorButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyColorButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyColorButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amySeriesSetEditor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amySeriesSetEditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amySeriesSetEditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyPointArrEditor.cpp">
+      <Filter>obsolete</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyFloatArrEditor.cpp">
+      <Filter>obsolete</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

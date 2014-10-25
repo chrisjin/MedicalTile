@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="TestRc">
+		 <file alias="T">whirlpool.png</file>
+    </qresource>
+</RCC>

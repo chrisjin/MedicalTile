@@ -1,0 +1,7 @@
+<Test>
+<version>1</version>
+<name>ROI+Threshold</name>
+<category>Composite</category>
+<algo>ROISegmentation</algo>
+<algo>Threshold</algo>
+</Test>

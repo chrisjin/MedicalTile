@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{6ccb519b-52db-4744-abfa-2e4fabbc3584}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{c4132d06-e18a-4628-baf5-ef0931103991}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\amyVariableHive.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyCubeHive.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\VarMacro.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyVariable.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amySerialize.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyVariableReader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyVariableWriter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amySeriesSetHive.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyVariableManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amySerializeUtil.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyVariableIO.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyMatrixHive.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyArrayHive.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyNumberHive.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpp\amyCubeHive.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyVariableHive.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyVariable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amySerialize.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyVariableReader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyVariableWriter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amySeriesSetHive.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyVariableManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amySerializeUtil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyVariableIO.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyMatrixHive.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyArrayHive.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyNumberHive.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

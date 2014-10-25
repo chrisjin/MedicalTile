@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{af4a75ef-9131-4541-896a-c4d0a7e182e4}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{b5f52d9b-2a46-4a79-b4a4-61ac24e4a1fd}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{d07f38bb-c8a0-4c40-874a-a96e55f0ca07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpp\amyCubeArrGenerator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyMaskGenerator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amySubtractionAlgorithm.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyThresholdAlgorithm.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyVoxelCounter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyAlgorithmManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyAlgorithmManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyAlgorithmManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyXMLAlgorithm.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="headers\amyAlgorithmScrollArea.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyAlgorithmScrollArea.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyAlgorithmScrollArea.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyCubeAND.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\amyCubeArrGenerator.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyMaskGenerator.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amySubtractionAlgorithm.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyThresholdAlgorithm.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyVoxelCounter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyXMLAlgorithm.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\CoreAlgoMacro.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyCubeAND.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="headers\amyAlgorithmManager.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="headers\amyAlgorithmScrollArea.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

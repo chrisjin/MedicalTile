@@ -1,0 +1,15 @@
+QScrollBar:vertical
+{
+    width:10px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+    padding-top:10px;  
+    padding-bottom:10px;
+}
+QScrollBar::handle:vertical
+{
+    width:10px;
+    background:gray;
+    min-height:20;  
+}
+ 

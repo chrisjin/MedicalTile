@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{42fc74c0-9f90-4276-b4f6-1784cf4bf7b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="basictype">
+      <UniqueIdentifier>{c1a947f5-1a4a-4cb7-83c1-c2f373f0a12c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algo">
+      <UniqueIdentifier>{b54099ba-ecef-4145-a885-9b20988e5f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zobsolete">
+      <UniqueIdentifier>{3159dd82-12a2-44ae-9a7f-a38ccfb4d270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{1506885f-7e9c-4a89-95b7-28a2f0d62788}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{6f67679d-05b5-4165-8aa0-50bb831a7bd5}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="obsolete">
+      <UniqueIdentifier>{baa13636-b3dc-42a5-91ce-72f58abb81c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpp\amyDICOMFolder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyUtil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyDICOM.cpp">
+      <Filter>basictype</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyCube.cpp">
+      <Filter>basictype</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyDragData.cpp">
+      <Filter>zobsolete</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amySeriesManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\DicomDllMain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amySeriesSet.cpp">
+      <Filter>basictype</Filter>
+    </ClCompile>
+    <ClCompile Include="headers\amySeriesSet.h">
+      <Filter>basictype</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyArray.cpp">
+      <Filter>basictype</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyNumber.cpp">
+      <Filter>basictype</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyMatrix.cpp">
+      <Filter>basictype</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyAlgorithmProgress.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_amyAlgorithmProgress.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyAlgorithmProgress.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyTypeWrap.cpp">
+      <Filter>obsolete</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyData.cpp">
+      <Filter>obsolete</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyGeo.cpp">
+      <Filter>obsolete</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\amyProgress.cpp">
+      <Filter>obsolete</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\amyDICOMFolder.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyUtil.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyDICOM.h">
+      <Filter>basictype</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyCube.h">
+      <Filter>basictype</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyDragData.h">
+      <Filter>zobsolete</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amySeriesManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\DicomMacro.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\DicomDllMain.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyArray.h">
+      <Filter>basictype</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyNumber.h">
+      <Filter>basictype</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyMatrix.h">
+      <Filter>basictype</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyTypeWrap.h">
+      <Filter>obsolete</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyData.h">
+      <Filter>obsolete</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyHeader.h">
+      <Filter>obsolete</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyGeo.h">
+      <Filter>obsolete</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\amyProgress.h">
+      <Filter>obsolete</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="headers\amyAlgorithmProgress.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

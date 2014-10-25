@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Qrc\GUICraft.qrc">
+      <Filter>资源文件</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Qrc\image\folder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Qrc\image\layout.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Qrc\image\annotation.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Qrc\image\series.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Qrc\image\numbers.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Qrc\image\whirlpool.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Qrc\image\link.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Qrc\image\link_broken.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Qrc\image\ruler_draw.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Qrc\image\ruler_hide.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Qrc\image\ruler_show.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Qrc\image\eraser.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Qrc\image\pen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Qrc\image\cross.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Qrc\qss\scrollstyle.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

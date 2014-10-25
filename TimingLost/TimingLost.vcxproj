@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="amyAlgorithmThread.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_amyAlgorithmThread.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_QAMYCuisineWindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QAMYWindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QAMYCuisineWindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QAMYWindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="QAMYCuisineWindow.cpp" />
+    <ClCompile Include="QAMYWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="QAMYCuisineWindow.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QAMYCuisineWindow.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_DICOMCRAFT -DIMPORT_EDITORCRAFT -DIMPORT_COREEDITOR -DIMPORT_COREALGO -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\."  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(SolutionDir)SingleCrap\headers" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)CoreEditor\headers" "-I$(SolutionDir)CoreAlgorithm\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers" "-I$(SolutionDir)AlgoCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QAMYCuisineWindow.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_COREEDITOR -DIMPORT_COREALGO -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\."  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)CoreEditor\headers" "-I$(SolutionDir)CoreAlgorithm\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)GUICraft\headers" "-I$(SolutionDir)DicomCraft\headers"</Command>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="QAMYCuisineWindow.ui">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="amyAlgorithmThread.h">
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_DICOMCRAFT -DIMPORT_EDITORCRAFT -DIMPORT_COREEDITOR -DIMPORT_COREALGO -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\."  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(SolutionDir)SingleCrap\headers" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)CoreEditor\headers" "-I$(SolutionDir)CoreAlgorithm\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers" "-I$(SolutionDir)AlgoCraft\headers"</Command>
+    </CustomBuild>
+    <ClInclude Include="GeneratedFiles\ui_QAMYCuisineWindow.h" />
+    <ClInclude Include="GeneratedFiles\ui_QAMYWindow.h" />
+    <CustomBuild Include="QAMYWindow.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QAMYWindow.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_DICOMCRAFT -DIMPORT_EDITORCRAFT -DIMPORT_COREEDITOR -DIMPORT_COREALGO -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\."  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)DicomCraft\headers" "-I$(SolutionDir)GUICraft\headers" "-I$(SolutionDir)SingleCrap\headers" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)CoreEditor\headers" "-I$(SolutionDir)CoreAlgorithm\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers" "-I$(SolutionDir)AlgoCraft\headers"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QAMYWindow.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DIMPORT_EDITORCRAFT -DIMPORT_COREEDITOR -DIMPORT_COREALGO -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -DIMPORT_ALGOCRAFT "-D$(NOINHERIT)\."  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)EditorCraft\headers" "-I$(SolutionDir)CoreEditor\headers" "-I$(SolutionDir)CoreAlgorithm\headers" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers" "-I$(SolutionDir)AlgoCraft\headers" "-I$(SolutionDir)Other\dcmtk\include" "-I$(SolutionDir)Other\itk_dll\include\ITK-4.1" "-I$(SolutionDir)GUICraft\headers" "-I$(SolutionDir)DicomCraft\headers"</Command>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="QAMYWindow.ui">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TimingLost.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="GeneratedFiles\Debug\QAMYCuisineWindow.moc">
+      <FileType>Document</FileType>
+    </CustomBuild>
+    <None Include="sonic.ico" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8E68E643-5008-471A-B7B2-C1E875C75EEB}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\ProjectProperty\AlgoCraft.props" />
+    <Import Project="..\ProjectProperty\BasicCraft.props" />
+    <Import Project="..\ProjectProperty\VarCraft.props" />
+    <Import Project="..\ProjectProperty\CoreAlgo.props" />
+    <Import Project="..\ProjectProperty\CoreEditor.props" />
+    <Import Project="..\ProjectProperty\EditorCraft.props" />
+    <Import Project="..\ProjectProperty\DicomCraft.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\ProjectProperty\APP_WithGUI.props" />
+    <Import Project="..\ProjectProperty\AlgoCraft.props" />
+    <Import Project="..\ProjectProperty\BasicCraft.props" />
+    <Import Project="..\ProjectProperty\VarCraft.props" />
+    <Import Project="..\ProjectProperty\CoreAlgo.props" />
+    <Import Project="..\ProjectProperty\CoreEditor.props" />
+    <Import Project="..\ProjectProperty\EditorCraft.props" />
+    <Import Project="..\ProjectProperty\DicomCraft.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)App\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)trash\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</EmbedManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</GenerateManifest>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_XML_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtXml;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(SolutionDir)Other\dcmtk\include;$(SolutionDir)Other\itk_dll\include\ITK-4.1;$(SolutionDir)DicomCraft\headers;$(SolutionDir)GUICraft\headers;$(SolutionDir)SingleCrap\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;$(SolutionDir)Other\dcmtk\lib;$(SolutionDir)Other\itk_dll\lib;$(SolutionDir)DicomCraft\lib;$(SolutionDir)GUICraft\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>netapi32.lib;Ws2_32.lib;dcmdata.lib;dcmdsig.lib;dcmimage.lib;dcmimgle.lib;dcmpstat.lib;dcmqrdb.lib;dcmsr.lib;dcmtls.lib;dcmjpeg.lib;oflog.lib;ofstd.lib;ijg8.lib;ijg12.lib;ijg16.lib;itksys-4.1.lib;itkvnl_algo-4.1.lib;itkvnl-4.1.lib;itkv3p_netlib-4.1.lib;ITKCommon-4.1.lib;itkNetlibSlatec-4.1.lib;ITKStatistics-4.1.lib;ITKIOImageBase-4.1.lib;ITKIOBMP-4.1.lib;ITKIOBioRad-4.1.lib;ITKEXPAT-4.1.lib;itkopenjpeg-4.1.lib;itkzlib-4.1.lib;itkgdcmDICT-4.1.lib;itkgdcmMSFF-4.1.lib;ITKIOGDCM-4.1.lib;ITKIOGIPL-4.1.lib;itkjpeg-4.1.lib;ITKIOJPEG-4.1.lib;itktiff-4.1.lib;ITKIOTIFF-4.1.lib;ITKIOLSM-4.1.lib;ITKMetaIO-4.1.lib;ITKIOMeta-4.1.lib;ITKznz-4.1.lib;ITKniftiio-4.1.lib;ITKIONIFTI-4.1.lib;ITKNrrdIO-4.1.lib;ITKIONRRD-4.1.lib;itkpng-4.1.lib;ITKIOPNG-4.1.lib;ITKIOStimulate-4.1.lib;ITKIOVTK-4.1.lib;ITKMesh-4.1.lib;ITKSpatialObjects-4.1.lib;ITKPath-4.1.lib;ITKLabelMap-4.1.lib;ITKQuadEdgeMesh-4.1.lib;ITKOptimizers-4.1.lib;ITKPolynomials-4.1.lib;ITKBiasCorrection-4.1.lib;ITKBioCell-4.1.lib;ITKDICOMParser-4.1.lib;ITKIOXML-4.1.lib;ITKIOSpatialObjects-4.1.lib;ITKFEM-4.1.lib;ITKIOIPL-4.1.lib;ITKIOGE-4.1.lib;ITKIOSiemens-4.1.lib;ITKKLMRegionGrowing-4.1.lib;ITKVTK-4.1.lib;ITKWatersheds-4.1.lib;ITKDeprecated-4.1.lib;ITKgiftiio-4.1.lib;ITKIOMesh-4.1.lib;itkhdf5_cpp-4.1.lib;itkhdf5-4.1.lib;ITKIOCSV-4.1.lib;ITKIOHDF5-4.1.lib;ITKIOTransformBase-4.1.lib;ITKIOTransformHDF5-4.1.lib;ITKIOTransformInsightLegacy-4.1.lib;ITKIOTransformMatlab-4.1.lib;ITKOptimizersv4-4.1.lib;ITKReview-4.1.lib;ITKVideoCore-4.1.lib;ITKVideoIO-4.1.lib;itkgdcmIOD-4.1.lib;itkgdcmDSED-4.1.lib;itkgdcmCommon-4.1.lib;itkgdcmjpeg8-4.1.lib;itkgdcmjpeg12-4.1.lib;itkgdcmjpeg16-4.1.lib;rpcrt4.lib;comctl32.lib;wsock32.lib;ws2_32.lib;ITKVNLInstantiation-4.1.lib;itkv3p_lsqr-4.1.lib;itkvcl-4.1.lib;DicomCraft.lib;GUICraft.lib;qtmaind.lib;QtXml4.lib;QtCore4.lib;QtGui4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AllowIsolation>true</AllowIsolation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_XML_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>qtmain.lib;QtCore4.lib;QtGui4.lib;QtXml4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties UicDir=".\GeneratedFiles" MocDir=".\GeneratedFiles\$(ConfigurationName)" MocOptions="" RccDir=".\GeneratedFiles" lupdateOnBuild="0" lupdateOptions="" lreleaseOptions="" QtVersion_x0020_Win32="Qt4.8.1" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,11 @@
+<Test>
+<version>1</version>
+<name>KidneySeg</name>
+<category>Kidney</category>
+<algo>Subtraction</algo>
+<algo>Gaussian</algo>
+<algo>ROISegmentation</algo>
+<algo>Threshold</algo>
+<algo>Opening</algo>
+<algo>LargestComponent</algo>
+</Test>

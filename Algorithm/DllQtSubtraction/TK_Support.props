@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)Other\dcmtk\include;$(SolutionDir)Other\itk_dll\include\ITK-4.1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)Other\dcmtk\lib;$(SolutionDir)Other\itk_dll\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>dcmdata.lib;dcmdsig.lib;dcmimage.lib;dcmimgle.lib;dcmpstat.lib;dcmqrdb.lib;dcmsr.lib;dcmtls.lib;oflog.lib;ofstd.lib;itksys-4.1.lib;itkvnl_algo-4.1.lib;itkvnl-4.1.lib;itkv3p_netlib-4.1.lib;ITKCommon-4.1.lib;itkNetlibSlatec-4.1.lib;ITKStatistics-4.1.lib;ITKIOImageBase-4.1.lib;ITKIOBMP-4.1.lib;ITKIOBioRad-4.1.lib;ITKEXPAT-4.1.lib;itkopenjpeg-4.1.lib;itkzlib-4.1.lib;itkgdcmDICT-4.1.lib;itkgdcmMSFF-4.1.lib;ITKIOGDCM-4.1.lib;ITKIOGIPL-4.1.lib;itkjpeg-4.1.lib;ITKIOJPEG-4.1.lib;itktiff-4.1.lib;ITKIOTIFF-4.1.lib;ITKIOLSM-4.1.lib;ITKMetaIO-4.1.lib;ITKIOMeta-4.1.lib;ITKznz-4.1.lib;ITKniftiio-4.1.lib;ITKIONIFTI-4.1.lib;ITKNrrdIO-4.1.lib;ITKIONRRD-4.1.lib;itkpng-4.1.lib;ITKIOPNG-4.1.lib;ITKIOStimulate-4.1.lib;ITKIOVTK-4.1.lib;ITKMesh-4.1.lib;ITKSpatialObjects-4.1.lib;ITKPath-4.1.lib;ITKLabelMap-4.1.lib;ITKQuadEdgeMesh-4.1.lib;ITKOptimizers-4.1.lib;ITKPolynomials-4.1.lib;ITKBiasCorrection-4.1.lib;ITKBioCell-4.1.lib;ITKDICOMParser-4.1.lib;ITKIOXML-4.1.lib;ITKIOSpatialObjects-4.1.lib;ITKFEM-4.1.lib;ITKIOIPL-4.1.lib;ITKIOGE-4.1.lib;ITKIOSiemens-4.1.lib;ITKKLMRegionGrowing-4.1.lib;ITKVTK-4.1.lib;ITKWatersheds-4.1.lib;ITKDeprecated-4.1.lib;ITKgiftiio-4.1.lib;ITKIOMesh-4.1.lib;itkhdf5_cpp-4.1.lib;itkhdf5-4.1.lib;ITKIOCSV-4.1.lib;ITKIOHDF5-4.1.lib;ITKIOTransformBase-4.1.lib;ITKIOTransformHDF5-4.1.lib;ITKIOTransformInsightLegacy-4.1.lib;ITKIOTransformMatlab-4.1.lib;ITKOptimizersv4-4.1.lib;ITKReview-4.1.lib;ITKVideoCore-4.1.lib;ITKVideoIO-4.1.lib;itkgdcmIOD-4.1.lib;itkgdcmDSED-4.1.lib;itkgdcmCommon-4.1.lib;itkgdcmjpeg8-4.1.lib;itkgdcmjpeg12-4.1.lib;itkgdcmjpeg16-4.1.lib;rpcrt4.lib;comctl32.lib;wsock32.lib;ws2_32.lib;ITKVNLInstantiation-4.1.lib;itkv3p_lsqr-4.1.lib;itkvcl-4.1.lib;DicomCraft.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

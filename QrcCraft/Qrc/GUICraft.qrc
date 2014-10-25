@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/ICON">
+        <file alias="Folder">image/folder.png</file>
+        <file alias="Layout">image/layout.png</file>
+        <file alias="Annotation">image/annotation.png</file>
+        <file alias="Patient">image/series.png</file>
+        <file alias="Numbers">image/numbers.png</file>
+        <file alias="Splash">image/whirlpool.png</file>
+		<file alias="Link">image/link.png</file>
+		<file alias="BrokenLink">image/link_broken.png</file>
+		<file alias="M_Draw">image/ruler_draw.png</file>
+		<file alias="M_Hide">image/ruler_hide.png</file>
+		<file alias="M_Show">image/ruler_show.png</file>
+		<file alias="PluginButton">image/click.png</file>
+		<file alias="CubeViewer">image/dicom.png</file>
+		<file alias="DataViewer">image/plot.png</file>
+    </qresource>   
+    <qresource prefix="/CURSOR">   
+        <file alias="Eraser">image/eraser.png</file>
+        <file alias="Pen">image/pen.png</file> 
+        <file alias="Cross">image/cross.png</file> 
+    </qresource>
+    <qresource prefix="/QSS">
+        <file alias="ScrollStyle">qss/scrollstyle.qss</file>
+    </qresource>
+</RCC>
