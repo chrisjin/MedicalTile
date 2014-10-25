@@ -17,7 +17,8 @@ How to compile?
 ---------------
 ####First, download the 3rd party libraries.
 * Download ITK 4.1.0 from [ITK](http://www.itk.org/ITK/resources/legacy_releases.html)
-* Download Qt >= 4.8.1 (I use 4.8.1 for this project, and Qt 4.8.5 also works well) from [Qt](http://download.qt-project.org/archive/qt/4.8/)
+* Download Qt >= 4.8.1 (I use 4.8.1 for this project, and Qt 4.8.5 also works fine) from [Qt](http://download.qt-project.org/archive/qt/4.8/)
+* Download DCMTK from [DCMTK](ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk360/dcmtk-3.6.0.zip)
 
 ####Second
 
