@@ -1,6 +1,6 @@
 MedicalTile
 ===========
-[DOWNLOAD is available!](https://github.com/chrisjin/MedicalTile_Resources/blob/master/Release_2014_10_25.zip)
+[DOWNLOAD is available!](https://github.com/chrisjin/MedicalTile/releases/download/FirstRelease/Release_2014_10_25.zip)
 Description
 ----------------
 MedicalTile is an open source software for 2D and 3D medical image visualization and processing. 
