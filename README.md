@@ -67,7 +67,7 @@ How to compile?
 How to add plugin?
 -----------------
 ####1, DLL plugin, 
-###### Step 1, inherit the following algorithm prototype.
+###### Step 1, inherit the following algorithm prototype and overwrite its virtual funtion.
 ```
 class ALGOCRAFT_INTERFACE amyAlgorithm
 {
