@@ -11,7 +11,7 @@ It's base on Qt, ITK and DCMTK. It can only work on WIN32 platform for now.<br>
 
 Release
 --------------
-[DOWNLOAD](https://github.com/chrisjin/MedicalTile/releases/download/FirstRelease/Release_2014_10_25.zip)
+[DOWNLOAD](https://github.com/chrisjin/MedicalTile/releases/download/FirstRelease/Release_10_25_2014.zip)
 <p>
 You can test the tool by loading the root folder of the data samples below.
 <br>
