@@ -92,15 +92,41 @@ How to compile?
 * Download ITK 4.1.0 from [ITK](http://www.itk.org/ITK/resources/legacy_releases.html)
 * Download Qt >= 4.8.1 (I use 4.8.1 for this project, and Qt 4.8.5 also works fine) from [Qt](http://download.qt-project.org/archive/qt/4.8/)
 * Download DCMTK3.6 from [DCMTK](http://dicom.offis.de/dcmtk.php.en)
+####Step 2, compile ITK, DCMTK, and Qt, if you donwload the qt source code package
+* Download [CMake](http://www.cmake.org/download/).
+* Use CMake to generate VS solution for ITK and DCMTK. Remember to set the CMAKE_INSTALL_PREFIX before generating.<br>
+Hint: CMAKE_INSTALL_PREFIX is a path where you can get full library files after compilation. 
+* Compile ITK and DCMTK.
+* Run the INSTALL within each VS solution. After that, you will get full lib and heade files collected in one path same as CMAKE_INSTALL_PREFIX you set.
+* Copy the 3rd party library files into the project and make the directory tree look like the following,
+```
+Project--->AlgoCraft, GUICraft, etc.   (Already ex)
+	|
+	|           
+	|->Other----->itk_dll--->include--->ITK-4.1--->All header files and header sub directories       --|
+                   |          |                                                                         |
+                   |          |->lib--->*.lib files                                                     |
+                   |                                                                                    |
+	              |                                                                                    |
+                   |->dcmtk----->include--->dcmtk--->dcmdata--->all header files                        |---> 3rd party libs
+                              |                   |                                                     |
+                              |                   |->dcmimage--->all header files                       |
+                              |                   |                                                     |
+                              |                   ...subdirectories--->all header files                 |
+                              |                                                                         |
+                              |->lib--->*.lib files                                                   --|
+```
+* Compile Qt, if you downloaded the source code instead of win32 binaries.
 
-####Step 2, add 3rd pary libraries and compile. 
+####Step 3, add 3rd pary libraries and compile. 
 * Visual studio 2010 is suggested.<br>
+* If you download the Qt binaries, install it.
 * Install Qt add-in for visual studio. You can find it in the downloaded Qt package.<br>
-* Add headers and libraries to visual studio.<br>
+* Add headers and libraries to visual studio. If you make the directory tree exactly as above, you can skip this step.<br>
 * Then, open the sln file in your visual studio and click build!<br>
 
 To do
 ----------------
-* Reorganize the project with CMake so that others can compile it with different IDE.
+* Reorganize this project using CMake to make path configuration easier when compiling.
 * Add a curve fitting plugin.
 * Some texts are still in Chinese. I need to fix it.
