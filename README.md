@@ -31,7 +31,7 @@ Feature
 * Extremely extensible. 
       * Add new algorithms
       * Add new data types 
-      * Add new visualization panels for data
+      * Add new visualization panels for different data types. <br>(so far, only 3D image type, data array type can be visualized)
 
 Screeshot
 ------------------------
