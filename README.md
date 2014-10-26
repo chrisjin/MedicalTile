@@ -106,7 +106,7 @@ Hint: CMAKE_INSTALL_PREFIX is the path where you can get full library files afte
 .
 |->AlgoCraft, GUICraft, etc.   (Already ex)
 |
-|->Other                                                                        -|
+|->Other    (Rename the folder "Other")                                         -|
     |->itk_dll                                                                   |
     |     |->include-->ITK-4.1-->All header files and header sub directories     |
     |     |->lib-->*.lib files                                                   |                                         
