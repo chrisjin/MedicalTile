@@ -53,14 +53,43 @@ Structure
 
 How to compile?
 ---------------
-####First, download the 3rd party libraries.
+####Step 1, download the 3rd party libraries.
 * Download ITK 4.1.0 from [ITK](http://www.itk.org/ITK/resources/legacy_releases.html)
 * Download Qt >= 4.8.1 (I use 4.8.1 for this project, and Qt 4.8.5 also works fine) from [Qt](http://download.qt-project.org/archive/qt/4.8/)
 * Download DCMTK3.6 from [DCMTK](http://dicom.offis.de/dcmtk.php.en)
 
-####Second, add 3rd pary libraries and compile. 
+####Step 2, add 3rd pary libraries and compile. 
 * Visual studio 2010 is suggested.<br>
 * Install Qt add-in for visual studio. You can find it in the downloaded Qt package.<br>
 * Add headers and libraries to visual studio.<br>
 * Then, open the sln file in your visual studio and click build!<br>
 
+How to add plugin?
+-----------------
+1, DLL plugin
+```
+class ALGOCRAFT_INTERFACE amyAlgorithm
+{
+public:
+	amyAlgorithm();
+	virtual bool			  CheckInputArr(std::vector<amyVariable>& arr)=0;
+	virtual const char*       GetAlgorithmName()=0;
+	virtual void			  Run()=0;
+	
+	void                      PostWarning(const char* info);
+	void                      PostError(const char* info);
+
+	virtual const char*	      GetCategory(){return "Algorithm";}
+
+
+	virtual string			  GetAuthor(){return "";}
+	virtual string            GetHint(){return "";}
+	virtual string            GetDescription(){return "";}
+
+	virtual QFrame*           CreatePanel(QWidget* parent);
+	virtual QIcon*            GetIcon(){return 0;}
+
+
+	amyAlgorithmStack*        GetStack();
+};
+```
