@@ -32,8 +32,9 @@ Feature
 Screeshot
 ------------------------
 ####Images of a swine taken by a MRI
-3D images of 20 time points or 4D image  
-![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/mainframe.PNG)
+3D images of 20 time points or 4D image<br>
+You can see gradually changes among these images indicating the injection and attenuation of contrast medium.
+![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/time-density.PNG)
 ####Images of brain
 MPR view
 ![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/mainframe2.PNG)
