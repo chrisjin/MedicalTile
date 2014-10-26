@@ -98,7 +98,7 @@ How to compile?
 * Use CMake to generate VS solution for ITK and DCMTK. <br>
 Remember to set shared library option.
 Remember to set the CMAKE_INSTALL_PREFIX before generating.<br>
-Hint: CMAKE_INSTALL_PREFIX is a path where you can get full library files after compilation. 
+Hint: CMAKE_INSTALL_PREFIX is the path where you can get full library files after compilation. 
 * Compile ITK and DCMTK.
 * Run the INSTALL within each VS solution. After that, you will get full lib and heade files collected in one path same as CMAKE_INSTALL_PREFIX you set.
 * Copy the 3rd party library files into the project and make the directory tree look like the following,
