@@ -13,7 +13,12 @@ Feature
 * Display 3D image as slices.
 * Image processing algorithms including morphological algorithms, watershed algorithm, registration and etc.
 * Data visualization.
+* 3D image series or 4D image, time-density curve of a ROI
 * Extremely extensible. Any one can add plugins as DLL to it without recompiling the whole project. 
+
+Screeshot
+------------------------
+()[](https://github.com/chrisjin/MedicalTile_Resources/blob/master/mainframe2.PNG)
 
 How to compile?
 ---------------
