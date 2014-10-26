@@ -100,21 +100,21 @@ Hint: CMAKE_INSTALL_PREFIX is a path where you can get full library files after 
 * Run the INSTALL within each VS solution. After that, you will get full lib and heade files collected in one path same as CMAKE_INSTALL_PREFIX you set.
 * Copy the 3rd party library files into the project and make the directory tree look like the following,
 ```
-Project--->AlgoCraft, GUICraft, etc.   (Already ex)
-	|
-	|           
-	|->Other----->itk_dll--->include--->ITK-4.1--->All header files and header sub directories    --|
-                   |          |                                                                         |
-                   |          |->lib--->*.lib files                                                     |
-                   |                                                                                    |
-	           |                                                                                    |
-                   |->dcmtk----->include--->dcmtk--->dcmdata--->all header files                        |--->3rdparties
-                              |                   |                                                     |
-                              |                   |->dcmimage--->all header files                       |
-                              |                   |                                                     |
-                              |                   ...subdirectories--->all header files                 |
-                              |                                                                         |
-                              |->lib--->*.lib files                                                   --|
+.--->AlgoCraft, GUICraft, etc.   (Already ex)
+  |
+  |           
+  |->Other--->itk_dll--->include--->ITK-4.1--->All header files and header sub directories    --|
+           |          |                                                                         |
+           |          |->lib--->*.lib files                                                     |
+           |                                                                                    |
+	   |                                                                                    |
+           |->dcmtk----->include--->dcmtk--->dcmdata--->all header files                        |--->3rdparties
+                      |                   |                                                     |
+                      |                   |->dcmimage--->all header files                       |
+                      |                   |                                                     |
+                      |                   ...        --->all header files                       |
+                      |                                                                         |
+                      |->lib--->*.lib files                                                   --|
 ```
 * Compile Qt, if you downloaded the source code instead of win32 binaries.
 
