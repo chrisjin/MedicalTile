@@ -107,7 +107,7 @@ Hint: CMAKE_INSTALL_PREFIX is a path where you can get full library files after 
            |          |                                                                         |
            |          |->lib--->*.lib files                                                     |
            |                                                                                    |
-	   |                                                                                    |
+           |                                                                                    |
            |->dcmtk----->include--->dcmtk--->dcmdata--->all header files                        |--->3rdparties
                       |                   |                                                     |
                       |                   |->dcmimage--->all header files                       |
