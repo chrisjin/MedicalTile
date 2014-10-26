@@ -44,7 +44,7 @@ MPR view
 ![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/mainframe2.PNG)
 ####Image processing panel
 You can freely select and manipulate multple 3D images on this panel. <br>
-One tile representing a 3D image
+Each tile can represent a 3D image, a number array etc.
 ![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/algopanel.PNG)
 ####Data visualization panel
 ![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/datavis.PNG)
