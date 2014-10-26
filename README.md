@@ -66,7 +66,7 @@ Structure
 Plugin
 -----------------
 * DLL plugin. Inherit a base class running your GUI, receiving data from the main application, processing your data and returning the result to the main application. The main application can handle all the rest.
-* XML plugin. kind of simple scrypt plugin. A XML plugin organizes existing plugins in a sequential order. When you run a XML plugin, actually you run several different plugins sequentially. <br>
+* XML plugin. kind of simple scrypt plugin. A XML plugin organizes existing plugins in a cascading manner. When you run a XML plugin, actually you run several different plugins cascadingly. <br>
 The plugin below combines Subtraction, Gaussian, ROISegmentation, Threshold, Opening, and LargestComponent together.
 ```
       <Test>
