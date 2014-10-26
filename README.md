@@ -51,6 +51,26 @@ Structure
 ####ITK and Qt encapsulation
 ![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/data.PNG)
 
+Plugin
+-----------------
+* DLL plugin. Inherit a base class running your GUI, receiving data from the main application, processing your data and returning the result to the main application. The main application can handle all the rest.
+* XML plugin. kind of simple scrypt plugin. A XML plugin organizes existing plugins in a sequential order. When you run a XML plugin, actually you run several different plugins sequentially. 
+The plugin below combines Subtraction, Gaussian, ROISegmentation, Threshold, Opening, and LargestComponent together.
+```
+<Test>
+<version>1</version>
+<name>KidneySeg</name>
+<category>Kidney</category>
+<algo>Subtraction</algo>
+<algo>Gaussian</algo>
+<algo>ROISegmentation</algo>
+<algo>Threshold</algo>
+<algo>Opening</algo>
+<algo>LargestComponent</algo>
+</Test>
+```
+* Other scrypt plugin. I plan to embed a python interpreter inside my application, but it's not don yet.
+
 How to compile?
 ---------------
 ####Step 1, download the 3rd party libraries.
@@ -64,33 +84,4 @@ How to compile?
 * Add headers and libraries to visual studio.<br>
 * Then, open the sln file in your visual studio and click build!<br>
 
-How to add plugin?
------------------
-####1, DLL plugin, 
-###### Step 1, inherit the following algorithm prototype and overwrite its virtual funtion.
-```
-class ALGOCRAFT_INTERFACE amyAlgorithm
-{
-public:
-	amyAlgorithm();
-	virtual bool		  CheckInputArr(std::vector<amyVariable>& arr)=0;
-	virtual const char*       GetAlgorithmName()=0;
-	virtual void 	          Run()=0;
-	
-	void                      PostWarning(const char* info);
-	void                      PostError(const char* info);
 
-	virtual const char*	  GetCategory(){return "Algorithm";}
-
-
-	virtual string		  GetAuthor(){return "";}
-	virtual string            GetHint(){return "";}
-	virtual string            GetDescription(){return "";}
-
-	virtual QFrame*           CreatePanel(QWidget* parent);
-	virtual QIcon*            GetIcon(){return 0;}
-
-
-	amyAlgorithmStack*        GetStack();
-};
-```
