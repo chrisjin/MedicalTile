@@ -4,7 +4,7 @@ MedicalTile
 Description
 ----------------
 MedicalTile is an open source software for 2D and 3D medical image visualization and processing. 
-It's base on Qt, ITK and DCMTK. It can only work on WIN32 platform for now.
+It's base on Qt, ITK and DCMTK. It can only work on WIN32 platform for now.<br>
 ![Qt](https://github.com/chrisjin/MedicalTile_Resources/blob/master/Qt.png)
 ![ITK](https://github.com/chrisjin/MedicalTile_Resources/blob/master/ITK.png)
 ![DCMTK](https://github.com/chrisjin/MedicalTile_Resources/blob/master/dcmtk.png)
