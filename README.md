@@ -12,7 +12,8 @@ It's base on Qt, ITK and DCMTK. It can only work on WIN32 platform for now.<br>
 Release
 --------------
 [DOWNLOAD is available!](https://github.com/chrisjin/MedicalTile/releases/download/FirstRelease/Release_2014_10_25.zip)
-[Dicom image sample 1](https://github.com/chrisjin/MedicalTile_Resources/blob/master/Release_2014_10_25.zip)
+<br>
+[Dicom image sample 1](https://github.com/chrisjin/MedicalTile/releases/download/FirstRelease/PA3_010-001.zip)
 
 Feature
 ---------------
