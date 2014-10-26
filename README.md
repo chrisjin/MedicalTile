@@ -18,9 +18,17 @@ Feature
 
 Screeshot
 ------------------------
+####Images of a swine taken by a MRI
+3D images of 20+ time points or 4D image  
 ![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/mainframe.PNG)
+####Images of brain
+MPR view
 ![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/mainframe2.PNG)
+####Image processing panel
+You can freely select and manipulate multple 3D images on this panel
 ![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/algopanel.PNG)
+####Data visualization panel
+![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/datavis.PNG)
 
 How to compile?
 ---------------
