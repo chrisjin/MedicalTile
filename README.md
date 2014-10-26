@@ -29,6 +29,7 @@ Feature
 * Data visualization.
 * 3D image series or 4D image, time-density curve of a ROI
 * Extremely extensible. 
+     You can:
       * Add new algorithms
       * Add new data types 
       * Add new visualization panels for different data types. <br>(so far, only 3D image type, data array type can be visualized)
