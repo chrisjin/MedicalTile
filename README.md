@@ -92,6 +92,7 @@ How to compile?
 * Download ITK 4.1.0 from [ITK](http://www.itk.org/ITK/resources/legacy_releases.html)
 * Download Qt >= 4.8.1 (I use 4.8.1 for this project, and Qt 4.8.5 also works fine) from [Qt](http://download.qt-project.org/archive/qt/4.8/)
 * Download DCMTK3.6 from [DCMTK](http://dicom.offis.de/dcmtk.php.en)
+
 ####Step 2, compile ITK, DCMTK, and Qt, if you donwload the qt source code package
 * Download [CMake](http://www.cmake.org/download/).
 * Use CMake to generate VS solution for ITK and DCMTK. Remember to set the CMAKE_INSTALL_PREFIX before generating.<br>
