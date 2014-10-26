@@ -24,7 +24,7 @@ Feature
 ---------------
 * Import CT or MR image folders.
 * Display 3D image as slices.
-* Image processing algorithms including morphological algorithms, watershed algorithm, registration and etc.
+* Image processing algorithms including morphological algorithms, watershed algorithm, registration etc.
 * Data visualization.
 * 3D image series or 4D image, time-density curve of a ROI
 * Extremely extensible. Any one can add plugins as DLL to it without recompiling the whole project. 
