@@ -18,6 +18,7 @@ Feature
 
 Screeshot
 ------------------------
+![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/mainframe.PNG)
 ![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/mainframe2.PNG)
 ![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/algopanel.PNG)
 
