@@ -54,7 +54,7 @@ Structure
 Plugin
 -----------------
 * DLL plugin. Inherit a base class running your GUI, receiving data from the main application, processing your data and returning the result to the main application. The main application can handle all the rest.
-* XML plugin. kind of simple scrypt plugin. A XML plugin organizes existing plugins in a sequential order. When you run a XML plugin, actually you run several different plugins sequentially. 
+* XML plugin. kind of simple scrypt plugin. A XML plugin organizes existing plugins in a sequential order. When you run a XML plugin, actually you run several different plugins sequentially. <br>
 The plugin below combines Subtraction, Gaussian, ROISegmentation, Threshold, Opening, and LargestComponent together.
 ```
       <Test>
@@ -69,7 +69,7 @@ The plugin below combines Subtraction, Gaussian, ROISegmentation, Threshold, Ope
       <algo>LargestComponent</algo>
       </Test>
 ```
-* Other scrypt plugin. I plan to embed a python interpreter inside my application, but it's not don yet.
+* Other scrypt plugin. I plan to embed a python interpreter inside my application, but it's not done yet.
 
 How to compile?
 ---------------
