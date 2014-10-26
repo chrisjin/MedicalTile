@@ -96,4 +96,8 @@ How to compile?
 * Add headers and libraries to visual studio.<br>
 * Then, open the sln file in your visual studio and click build!<br>
 
-
+To do
+----------------
+* Reorganize the project with CMake so that others can compile it with different IDE.
+* Add a curve fitting plugin.
+* Some texts are still in Chinese. I need to fix it.
