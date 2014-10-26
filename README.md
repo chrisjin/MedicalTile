@@ -32,6 +32,7 @@ Feature
       * Add new algorithms
       * Add new data types 
       * Add new visualization panels for data
+
 Screeshot
 ------------------------
 ####Images of a swine taken by a MRI
