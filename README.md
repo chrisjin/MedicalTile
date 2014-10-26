@@ -57,17 +57,17 @@ Plugin
 * XML plugin. kind of simple scrypt plugin. A XML plugin organizes existing plugins in a sequential order. When you run a XML plugin, actually you run several different plugins sequentially. 
 The plugin below combines Subtraction, Gaussian, ROISegmentation, Threshold, Opening, and LargestComponent together.
 ```
-<Test>
-<version>1</version>
-<name>KidneySeg</name>
-<category>Kidney</category>
-<algo>Subtraction</algo>
-<algo>Gaussian</algo>
-<algo>ROISegmentation</algo>
-<algo>Threshold</algo>
-<algo>Opening</algo>
-<algo>LargestComponent</algo>
-</Test>
+      <Test>
+      <version>1</version>
+      <name>KidneySeg</name>
+      <category>Kidney</category>
+      <algo>Subtraction</algo>
+      <algo>Gaussian</algo>
+      <algo>ROISegmentation</algo>
+      <algo>Threshold</algo>
+      <algo>Opening</algo>
+      <algo>LargestComponent</algo>
+      </Test>
 ```
 * Other scrypt plugin. I plan to embed a python interpreter inside my application, but it's not don yet.
 
