@@ -44,7 +44,7 @@ You can see gradual changes among these images indicating the injection and atte
 ####Images of brain
 MPR view
 ![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/mainframe2.PNG)
-####MPR View
+####MPR View in red, green, blue
 ![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/MPR2.PNG)
 ####Image processing panel
 You can freely save, move, select, delete and manipulate multple 3D images and other data types on this panel. <br>
