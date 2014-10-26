@@ -51,6 +51,10 @@ Each tile can represent a 3D image, a number array or other types.<br>
 ####Data visualization panel
 You can set the range of X, Y axis, change the role of each row of numbers.
 ![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/datavis.PNG)
+####Segmentation of kidney of swine
+![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/segmentation.PNG)
+####Time-density curve of contrast medium in kidney after injection
+![](https://github.com/chrisjin/MedicalTile_Resources/blob/master/tdc.PNG)
 
 Structure
 ---------------------
