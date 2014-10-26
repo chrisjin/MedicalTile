@@ -24,6 +24,7 @@ Feature
 ---------------
 * Import CT or MR image folders.
 * Display 3D image as slices.
+* MPR view.
 * Image processing algorithms including morphological algorithms, watershed algorithm, registration etc.
 * Data visualization.
 * 3D image series or 4D image, time-density curve of a ROI
