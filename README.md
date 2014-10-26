@@ -28,6 +28,7 @@ Feature
 * Image processing algorithms including morphological algorithms, watershed algorithm, registration etc.
 * Data visualization.
 * 3D image series or 4D image, time-density curve of a ROI
+* Zoom, pan, Window level/width
 * Extremely extensible. 
      You can:
       * Add new algorithms
