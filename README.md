@@ -106,17 +106,19 @@ Hint: CMAKE_INSTALL_PREFIX is the path where you can get full library files afte
 .
 |->AlgoCraft, GUICraft, etc.   (Already ex)
 |
-|->Other    (Rename the folder "Other")                                         -|
-    |->itk_dll                                                                   |
-    |     |->include-->ITK-4.1-->All header files and header sub directories     |
-    |     |->lib-->*.lib files                                                   |                                         
-    |->dcmtk                                                                     |
-          |->include                                                             |--->3rdparties
-          |     |->dcmtk                                                         |
-          |     |->dcmdata-->all header files                                    |
-          |     |->dcmimage-->all header files                                   |
-          |     |->...        -->all header files                                |
-          |->lib-->*.lib files                                                  -|
+|->Other    (Rename the folder "Other")                                        -|
+    |->itk_dll                                                                  |
+    |     |->include                                                            |
+    |     |    |->ITK-4.1-->All header files and header sub directories         |
+    |     |->lib                                                                |
+    |          |->*.lib files                                                   |--->3rdparties            
+    |->dcmtk                                                                    |
+          |->include                                                            |
+          |    |->dcmtk                                                         |
+          |         |->dcmdata-->all header files                               |
+          |         |->dcmimage-->all header files                              |
+          |         |->...        -->all header files                           |
+          |->lib->*.lib files                                                  -|
 ```
 * Compile Qt, if you downloaded the source code instead of win32 binaries.
 
