@@ -25,6 +25,7 @@ doc & Manual
 ----------
 When images are loaded, drag it to the browser to display it, drag it to processing panel to manipulate...<br>
 Drag, drag, drag.<br>
+Draw rectangle to select tiles on the processing panel. Push algorithm button and corresponding alogithm will start with the selected tiles as inputs<br>
 [CTRL+]Right button to slice<br>
 [CTRL+]Left button to change window width/center<br>
 [CTRL+]Middle button to zoom & pan.<br>
