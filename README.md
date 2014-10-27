@@ -19,9 +19,11 @@ You can test the tool by loading the root folder of the data samples below.
 <p>
 [More samples](http://www.creatis.insa-lyon.fr/~jpr/PUBLIC/gdcm/gdcmSampleData/Philips_Medical_Images/mr711-mr712/INDEX.htm)
 
-doc
+doc & Manual
 ----------
-[slides](https://github.com/chrisjin/MedicalTile/releases/download/doc/doc.pptx)
+[A simple slides](https://github.com/chrisjin/MedicalTile/releases/download/doc/doc.pptx)<br>
+When images are loaded, drag it to the browser to display it, drag it to processing panel to manipulate...<br>
+Drag, drag, drag.
 
 Feature
 ---------------
