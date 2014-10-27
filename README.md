@@ -19,6 +19,9 @@ You can test the tool by loading the root folder of the data samples below.
 <p>
 [More samples](http://www.creatis.insa-lyon.fr/~jpr/PUBLIC/gdcm/gdcmSampleData/Philips_Medical_Images/mr711-mr712/INDEX.htm)
 
+doc
+----------
+[slides](https://github.com/chrisjin/MedicalTile/releases/download/doc/doc.pptx)
 
 Feature
 ---------------
