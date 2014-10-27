@@ -25,7 +25,7 @@ doc & Manual
 ----------
 [A simple slides](https://github.com/chrisjin/MedicalTile/releases/download/doc/doc.pptx)<br>
 When images are loaded, drag it to the browser to display it, drag it to processing panel to manipulate...<br>
-Drag, drag, drag.
+Drag, drag, drag.<br>
 [CTRL+]Right button to slice<br>
 [CTRL+]Left button to change window width/center<br>
 [CTRL+]Middle button to zoom & pan.<br>
