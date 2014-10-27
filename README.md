@@ -23,13 +23,14 @@ You can test the tool by loading the root folder of the data samples below.
 
 doc & Manual
 ----------
-[A simple slides](https://github.com/chrisjin/MedicalTile/releases/download/doc/doc.pptx)<br>
 When images are loaded, drag it to the browser to display it, drag it to processing panel to manipulate...<br>
 Drag, drag, drag.<br>
 [CTRL+]Right button to slice<br>
 [CTRL+]Left button to change window width/center<br>
 [CTRL+]Middle button to zoom & pan.<br>
-CTRL is usually optional, but when the view allows user to draw something, you must push CTRL to slice, zoom, pan, or change window width/center<br>
+CTRL is usually optional, but when the view allows user to draw something, you must push CTRL to slice, zoom, pan, or change window width/center
+<p>
+[A simple slides](https://github.com/chrisjin/MedicalTile/releases/download/doc/doc.pptx)<br>
 
 
 Feature
