@@ -14,7 +14,7 @@ Release
 [DOWNLOAD](https://github.com/chrisjin/MedicalTile/releases/download/FirstRelease/Release_10_25_2014.zip)
 <p>
 You can test the tool by loading the root folder of the data samples below.
-<br>
+<p>
 [Dicom sample 1, more than 3D images taken at many sequential time points](https://github.com/chrisjin/MedicalTile/releases/download/FirstRelease/PA3_010-001.zip)
 <p>
 [Dynamic MRI samples](http://www.osirix-viewer.com/datasets/)
