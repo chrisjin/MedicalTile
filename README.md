@@ -110,9 +110,8 @@ Hint: CMAKE_INSTALL_PREFIX is the path where you can get full library files afte
     |->itk_dll                                                                  |
     |     |->include                                                            |
     |     |    |->ITK-4.1-->All header files and header sub directories         |
-    |     |->lib                                                                |
-    |          |->*.lib files                                                   |--->3rdparties            
-    |->dcmtk                                                                    |
+    |     |->lib->*.lib files                                                   |
+    |->dcmtk                                                                    |--->3rdparties
           |->include                                                            |
           |    |->dcmtk                                                         |
           |         |->dcmdata-->all header files                               |
