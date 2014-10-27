@@ -30,7 +30,7 @@ Drag, drag, drag.<br>
 [CTRL+]Middle button to zoom & pan.<br>
 CTRL is usually optional, but when the view allows user to draw something, you must push CTRL to slice, zoom, pan, or change window width/center
 <p>
-[A simple slides](https://github.com/chrisjin/MedicalTile/releases/download/doc/doc.pptx)<br>
+[Introduction slides](https://github.com/chrisjin/MedicalTile/releases/download/doc/doc.pptx)<br>
 
 
 Feature
