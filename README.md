@@ -21,7 +21,7 @@ You can test the tool by loading the root folder of the data samples below.
 <p>
 [More samples](http://www.creatis.insa-lyon.fr/~jpr/PUBLIC/gdcm/gdcmSampleData/Philips_Medical_Images/mr711-mr712/INDEX.htm)
 
-doc & Manual
+Doc & Manual
 ----------
 When images are loaded, drag it to the browser to display it, drag it to processing panel to manipulate...<br>
 Drag, drag, drag.<br>
@@ -49,7 +49,7 @@ Feature
       * Add new data types 
       * Add new visualization panels for different data types. <br>(so far, only 3D image type, data array type can be visualized)
 
-Screeshot
+Screenshot
 ------------------------
 ####Images of a swine taken by a MRI
 3D images of 20 time points or 4D image<br>
