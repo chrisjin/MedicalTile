@@ -42,7 +42,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LinkIncremental>true</LinkIncremental>
+    <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)App\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -55,7 +55,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;QT_CORE_LIB;QT_GUI_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\QTWP\QtDicom_Recon\AlgoCraft\headers;$(QTDIR)\include\QtCore;$(QTDIR)\include;$(QTDIR)\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)AlgoCraft\headers;$(QTDIR)\include\QtCore;$(QTDIR)\include;$(QTDIR)\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -104,21 +104,21 @@
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyAlgorithmPanel.h...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DWIN32 -D_DEBUG -D_CONSOLE -DQT_CORE_LIB -DQT_GUI_LIB -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -D_WINDLL -D_UNICODE -DUNICODE "-IE:\QTWP\QtDicom_Recon\AlgoCraft\headers" "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"   -DWIN32 -D_DEBUG -D_CONSOLE -DQT_CORE_LIB -DQT_GUI_LIB -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -D_WINDLL -D_UNICODE -DUNICODE  "-I." "-I$(SolutionDir)AlgoCraft\headers" "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers" "-I." "-I." "-I." "-I." "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyAlgorithmPanel.h...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DWIN32 -DNDEBUG -D_CONSOLE -DQT_CORE_LIB -DQT_GUI_LIB -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -D_UNICODE -DUNICODE "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"   -DWIN32 -DNDEBUG -D_CONSOLE -DQT_CORE_LIB -DQT_GUI_LIB -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -D_UNICODE -DUNICODE  "-I." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers" "-I." "-I." "-I." "-I." "-I." "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"</Command>
     </CustomBuild>
     <CustomBuild Include="headers\amyAlgorithmRunner.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing amyAlgorithmRunner.h...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DWIN32 -D_DEBUG -D_CONSOLE -DQT_CORE_LIB -DQT_GUI_LIB -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -D_WINDLL -D_UNICODE -DUNICODE "-IE:\QTWP\QtDicom_Recon\AlgoCraft\headers" "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"   -DWIN32 -D_DEBUG -D_CONSOLE -DQT_CORE_LIB -DQT_GUI_LIB -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -D_WINDLL -D_UNICODE -DUNICODE  "-I." "-I$(SolutionDir)AlgoCraft\headers" "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers" "-I." "-I." "-I." "-I." "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing amyAlgorithmRunner.h...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DWIN32 -DNDEBUG -D_CONSOLE -DQT_CORE_LIB -DQT_GUI_LIB -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -D_UNICODE -DUNICODE "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"   -DWIN32 -DNDEBUG -D_CONSOLE -DQT_CORE_LIB -DQT_GUI_LIB -DIMPORT_VARCRAFT -DIMPORT_BASICCRAFT -D_UNICODE -DUNICODE  "-I." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)VarCraft\headers" "-I$(SolutionDir)BasicCraft\headers" "-I." "-I." "-I." "-I." "-I." "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"</Command>
     </CustomBuild>
     <ClInclude Include="headers\amyAlgorithmStack.h" />
   </ItemGroup>
@@ -147,7 +147,7 @@
   </ImportGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties QtVersion_x0020_Win32="Qt4.8.1" />
+      <UserProperties QtVersion_x0020_Win32="4.8.1" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

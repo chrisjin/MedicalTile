@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'amyVariableEditor.h'
 **
-** Created: Fri Mar 21 11:13:15 2014
+** Created: Wed Mar 11 01:25:33 2015
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!

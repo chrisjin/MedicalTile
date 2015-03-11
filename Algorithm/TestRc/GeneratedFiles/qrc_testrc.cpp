@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Resource object code
 **
-** Created: Fri Mar 21 11:15:40 2014
+** Created: Wed Mar 11 01:26:42 2015
 **      by: The Resource Compiler for Qt version 4.8.1
 **
 ** WARNING! All changes made in this file will be lost!
@@ -10,7 +10,7 @@
 #include <QtCore/qglobal.h>
 
 static const unsigned char qt_resource_data[] = {
-  // E:/QTWP/QtDicom_Recon/Algorithm/TestRc/whirlpool.png
+  // C:/Home/WorkPlace/QtDicom_Recon/Algorithm/TestRc/whirlpool.png
   0x0,0x2,0x4e,0x7f,
   0x89,
   0x50,0x4e,0x47,0xd,0xa,0x1a,0xa,0x0,0x0,0x0,0xd,0x49,0x48,0x44,0x52,0x0,

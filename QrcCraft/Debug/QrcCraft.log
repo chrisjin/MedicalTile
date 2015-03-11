@@ -1,14 +1,16 @@
-﻿生成启动时间为 2014/7/18 17:48:31。
-     1>项目“E:\QTWP\QtDicom_Recon\QrcCraft\QrcCraft.vcxproj”在节点 2 上(build 个目标)。
-     1>InitializeBuildStatus:
-         正在创建“Debug\QrcCraft.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+﻿Build started 3/11/2015 1:25:04 AM.
+     1>Project "C:\Home\WorkPlace\QtDicom_Recon\QrcCraft\QrcCraft.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\QrcCraft.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\QrcCraft.unsuccessfulbuild" because "AlwaysCreate" was specified.
        CustomBuild:
          Rcc'ing Qrc\GUICraft.qrc...
        FinalizeBuildStatus:
-         正在删除文件“Debug\QrcCraft.unsuccessfulbuild”。
-         正在对“Debug\QrcCraft.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“E:\QTWP\QtDicom_Recon\QrcCraft\QrcCraft.vcxproj”(build 个目标)的操作。
+         Deleting file "Debug\QrcCraft.unsuccessfulbuild".
+         Touching "Debug\QrcCraft.lastbuildstate".
+     1>Done Building Project "C:\Home\WorkPlace\QtDicom_Recon\QrcCraft\QrcCraft.vcxproj" (rebuild target(s)).
 
-生成成功。
+Build succeeded.
 
-已用时间 00:00:03.55
+Time Elapsed 00:00:00.20

@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'ThresholdWidget.h'
 **
-** Created: Fri Mar 21 11:15:15 2014
+** Created: Wed Mar 11 01:26:48 2015
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!

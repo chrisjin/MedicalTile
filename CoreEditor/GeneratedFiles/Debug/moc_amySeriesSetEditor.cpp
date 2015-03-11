@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'amySeriesSetEditor.h'
 **
-** Created: Fri Mar 21 11:14:59 2014
+** Created: Wed Mar 11 01:26:43 2015
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!

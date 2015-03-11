@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'QAMYCuisineWindow.ui'
 **
-** Created: Fri Mar 21 11:15:41 2014
+** Created: Wed Mar 11 01:27:19 2015
 **      by: Qt User Interface Compiler version 4.8.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
