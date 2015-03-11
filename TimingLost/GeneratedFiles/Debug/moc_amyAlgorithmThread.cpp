@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'amyAlgorithmThread.h'
 **
-** Created: Wed Mar 11 01:27:20 2015
+** Created: Wed Mar 11 01:37:36 2015
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!

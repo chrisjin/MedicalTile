@@ -1,16 +1,14 @@
-﻿Build started 3/11/2015 1:25:04 AM.
-     1>Project "C:\Home\WorkPlace\QtDicom_Recon\QrcCraft\QrcCraft.vcxproj" on node 3 (rebuild target(s)).
-     1>_PrepareForClean:
-         Deleting file "Debug\QrcCraft.lastbuildstate".
-       InitializeBuildStatus:
+﻿Build started 3/11/2015 1:37:36 AM.
+     1>Project "C:\Home\WorkPlace\QtDicom_Recon\QrcCraft\QrcCraft.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
          Creating "Debug\QrcCraft.unsuccessfulbuild" because "AlwaysCreate" was specified.
        CustomBuild:
          Rcc'ing Qrc\GUICraft.qrc...
        FinalizeBuildStatus:
          Deleting file "Debug\QrcCraft.unsuccessfulbuild".
          Touching "Debug\QrcCraft.lastbuildstate".
-     1>Done Building Project "C:\Home\WorkPlace\QtDicom_Recon\QrcCraft\QrcCraft.vcxproj" (rebuild target(s)).
+     1>Done Building Project "C:\Home\WorkPlace\QtDicom_Recon\QrcCraft\QrcCraft.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.20
+Time Elapsed 00:00:00.13
