@@ -1,5 +1,8 @@
 MedicalTile
 ===========
+License
+----------------
+If you want to distribute or modify for any business use, please first contact sjin02@syr.edu. 
 
 Description
 ----------------
